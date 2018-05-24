@@ -1,18 +1,3 @@
-'''
-Cosas que Faltan:
-1- Golpear a vader (idea: manejando la vida de cada jugador) 
-listo
-2- direccion de los robots que deben cambiar la direccion de las balas
-3- disparo de la nave
-4- Game over
-listo falta pulir
-5- JUego terminado
-listo falta pulir
-6- modificadores
-7- musica
-
-
-'''
 import pygame
 import random
 from Objects.Player import *
@@ -787,7 +772,7 @@ while not close:
 	Pantalla.blit(fondo1, [pospx,pospy])
 	texto = fuente.render("H1      H2", True, [0, 0, 0])
 	
-#____________________________________________________________________________GAME OVER
+#____________________________________________________________________________GAME OVER -- si mueren los dos
 
 	if(Luke.health<=0)and(Luke2.health<=0):
 		over = fuente2.render("GAME OVER", True, [0, 0, 0])
