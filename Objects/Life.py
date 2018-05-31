@@ -1,6 +1,7 @@
 import pygame
 import random
 
+# Cargar Imagenes de salud
 life1 = pygame.image.load('life1.png')
 life2 = pygame.image.load('life2.png')
 
