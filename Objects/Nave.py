@@ -1,7 +1,7 @@
 import pygame
 import random
 
-
+#Image nave
 nave1 = pygame.image.load('nave.png')
 
 
