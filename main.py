@@ -1,6 +1,7 @@
+# BY: SebasttianVelez
 import pygame
 import random
-from Objects.Player import *
+from Objects.Player import *  
 from Objects.Enemy import *
 from Objects.Bullet import *
 from Objects.Life import *
