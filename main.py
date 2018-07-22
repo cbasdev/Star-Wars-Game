@@ -1,4 +1,4 @@
-# BY: SebasttianVelez
+# BY: @SebasttianVelez
 import pygame
 import random
 from Objects.Player import *  
